@@ -1,6 +1,6 @@
 {
   "name": "use-deep-descendants",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc --emitDeclarationOnly && mv dist/src dist/types",
@@ -36,7 +36,7 @@
     "vue-tsc": "^0.2.2"
   },
   "keywords": [
-    "vue"
+    "vue3"
   ],
   "author": "themojilla",
   "license": "MIT",
