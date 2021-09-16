@@ -17,6 +17,9 @@
       "require": "./dist/use-deep-descendants.umd.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "types": "./dist/types/index.d.ts",
   "dependencies": {
     "vue": "^3.2.6"
