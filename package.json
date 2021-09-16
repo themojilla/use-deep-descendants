@@ -1,0 +1,44 @@
+{
+  "name": "use-deep-descendants",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:ts": "vite build && tsc --emitDeclarationOnly && mv dist/src dist/types",
+    "serve": "vite preview",
+    "prepare": "husky install"
+  },
+  "main": "dist/use-deep-descendants.umd.js",
+  "unpkg": "dist/use-deep-descendants.iife.js",
+  "jsdelivr": "dist/use-deep-descendants.iife.js",
+  "module": "./dist/use-deep-descendants.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/use-deep-descendants.es.js",
+      "require": "./dist/use-deep-descendants.umd.js"
+    }
+  },
+  "types": "./dist/types/index.d.ts",
+  "dependencies": {
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@types/node": "^16.9.1",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "husky": "^7.0.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4",
+    "vue-tsc": "^0.2.2"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "themojilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themojilla/use-deep-descendants"
+  }
+}
