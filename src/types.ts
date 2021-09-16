@@ -1,11 +1,11 @@
 import type { Ref } from 'vue';
 
-type Descendant = {
+export type Descendant = {
   id?: string;
   element?: HTMLElement;
 };
 
-type DescendantsContext = {
+export type DescendantsContext = {
   descendants: Ref<Descendant[]>;
   register({ element: HTMLElement }): void;
 };
