@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build && tsc --emitDeclarationOnly && mv dist/src dist/types",
     "serve": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "release-it"
   },
   "main": "dist/use-deep-descendants.umd.js",
   "unpkg": "dist/use-deep-descendants.iife.js",
@@ -31,6 +32,7 @@
     "@vitejs/plugin-vue": "^1.6.1",
     "@vue/compiler-sfc": "^3.2.6",
     "husky": "^7.0.2",
+    "release-it": "*",
     "typescript": "^4.3.2",
     "vite": "^2.5.4",
     "vue-tsc": "^0.2.2"
