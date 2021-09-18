@@ -25,7 +25,9 @@ Defining compound components unlock the power of composition. This means that th
 
 ## Installation
 
-> `yarn add use-deep-descendants`
+```bash
+yarn add use-deep-descendants
+```
 
 ## Usage
 
