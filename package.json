@@ -40,9 +40,10 @@
   "keywords": [
     "vue3"
   ],
-  "author": "themojilla",
+  "author": "themojilla <the.mojilla@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/themojilla/use-deep-descendants"
-  }
+  },
+  "repository": "https://github.com/themojilla/use-deep-descendants"
 }

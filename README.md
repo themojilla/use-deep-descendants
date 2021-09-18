@@ -1,5 +1,7 @@
 # useDeepDescendants
 
+[![npm version](https://badge.fury.io/js/use-deep-descendants.svg)](https://badge.fury.io/js/use-deep-descendants)
+
 > Vue 3 composition utilities to programmatically keep track of descendant components
 
 ## Motivation
